@@ -40,6 +40,17 @@ public class GettysburgMain {
 			
 		}
 		
+		for(int i = 0; i < gettyRay.size(); i++)
+		{
+			String currentWord = gettyRay.get[i];
+			if(currentWord.equals(".") || currentWord.equals(",") || currentWord.equals(" ") || currentWord.equals("-")) || currentWord.equals(""))
+			{
+				gettyRay.remove(i);
+			}
+			
+			
+		{
+		
 		String longest = "";
 		// for(String gRWord : gettyRay)
 		for(int i = 0; i < gettyRay.size(); i++)
@@ -51,7 +62,7 @@ public class GettysburgMain {
 			}
 			
 		}
-		
+	
 		int avgLength = 0;
 		for(String gWord : gettyRay)
 		{
