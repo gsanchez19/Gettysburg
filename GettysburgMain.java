@@ -40,6 +40,7 @@ public class GettysburgMain {
 			
 		}
 		
+		// Failsafe: removes non-letter elements from arraylist gettyRay
 		for(int i = 0; i < gettyRay.size(); i++)
 		{
 			String currentWord = gettyRay.get[i];
@@ -63,7 +64,7 @@ public class GettysburgMain {
 			
 		}
 	
-		int avgLength = 0;
+		double avgLength = 0;
 		for(String gWord : gettyRay)
 		{
 			avgLength = avgLength + gWord.length();
@@ -73,12 +74,14 @@ public class GettysburgMain {
 		
 		System.out.println("The longest word in the Gettysburg Address is: " + longest);
 		System.out.println("The average word length is: " + avgLength);
-		System.out.println(gettyFile.length());
-		System.out.println(gettyRay.size());
-		System.out.println("" + gettyRay.get(gettyRay.size()-1));
-		System.out.println(gettyRay.get(11));
 		
-		System.out.println(gettyFile);
+		
+		// System.out.println(gettyFile.length());
+		// System.out.println(gettyRay.size());
+		// System.out.println("" + gettyRay.get(gettyRay.size()-1));
+		// System.out.println(gettyRay.get(11));
+		
+		// System.out.println(gettyFile);
 		
 		
 		
