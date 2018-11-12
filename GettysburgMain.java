@@ -75,6 +75,8 @@ public class GettysburgMain {
 		System.out.println("The longest word in the Gettysburg Address is: " + longest);
 		System.out.println("The average word length is: " + avgLength);
 		
+			
+		// This was me just troubleshooting my program. Don't mind it too much!
 		
 		// System.out.println(gettyFile.length());
 		// System.out.println(gettyRay.size());
